@@ -4,6 +4,82 @@
     padding: 0;
 }
 
-.navigation__list {
+@font-face {
+    font-family: DMSans;
+    src: url(/alvenaria4/fonts/DMSans-Medium.ttf);
+    font-style: normal;
+}
+
+.navigation__list a, button {
+    display: block;
+    color: #222222;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: DMSans;
+    transition: all 0.3s ease 0s;
+}
+
+.header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 0px;
+    
+}
+
+.logo {
+    width: 50px;
+    height: inherit;
+    cursor: pointer;
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation__list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation__list li a:hover{
+    color: #C7791B;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(199, 121, 27);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(236, 168, 80);
+}
+
+.background-image-container {
+    background-position: 0px 20px;
+    height: calc(100vh);
+}
+
+.logotipo {
+    width: 1000px;
+    height: auto;
+    text-align: center;
+}
+
+#contact-section-container {
+    color: #222222;
 }
